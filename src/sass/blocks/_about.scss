@@ -1,0 +1,40 @@
+.about {
+  background: $main-color;
+  height: 1912px;
+  &__descr {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 365px;
+    width: 1122px;
+  }
+  &__block {
+    padding: 465px 300px 0 200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 663px minmax(560px, auto);
+    column-gap: 200px;
+    align-items: center;
+  }
+  &__img {
+    width: 663px;
+  }
+  &__text {
+
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 120%;
+    color: #FFFFFF;
+  }
+  &__subtitle {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 200%;
+    color: #FFFFFF
+  }
+}

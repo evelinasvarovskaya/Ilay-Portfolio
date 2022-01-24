@@ -1,0 +1,57 @@
+.work {
+  background: $main-color;
+  padding-top: 455px;
+  .container {
+    width: 1298px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    column-gap: 200px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  &__item {
+    width: 550px;
+    &-first {
+      margin: 180px 0;
+    }
+    &-third {
+      margin: 524px 0 180px 0;
+    }
+    &_text {
+      color: #FFFFFF;
+      &:hover {
+        color: $hover-color;
+      }
+    }
+    &_title {
+      margin-top: 24px;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 120%;
+    }
+    &_subtitle {
+      margin-top: 5px;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 200%;
+    }
+  }
+  &__all {
+    margin-top: 170px;
+    a {
+      font-weight: 400;
+      font-size: 52px;
+      line-height: 120%;
+      color: #FFFFFF;
+      text-decoration: none;
+      padding-right: 10px;
+    }
+  }
+}

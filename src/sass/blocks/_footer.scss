@@ -1,0 +1,45 @@
+.footer {
+  background: $main-color;
+  &__link {
+    margin: 0 614px;
+    display: flex;
+    //margin: 0 auto;
+    justify-content: space-around;
+  }
+  &__cv {
+    width: 119px;
+    margin-right: 134px;
+
+     a{
+      font-weight: 400;
+      font-size: 52px;
+      line-height: 120%;
+      color: #FFFFFF;
+      margin: 0;
+       text-decoration: none;
+       &:hover {
+         color: $hover-color;
+       }
+    }
+  }
+  &__social {
+    width: 439px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+      path {
+        fill: blue
+      }
+    }
+  }
+  &__title {
+    padding: 90px 0 35px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A0A0A0;
+    text-align: center;
+  }
+}

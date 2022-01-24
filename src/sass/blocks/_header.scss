@@ -1,0 +1,43 @@
+.header {
+  background: url("../../img/Rectangle 138.png");
+  height: 1000px;
+  &__link {
+    display: flex;
+    padding: 0 60px;
+    justify-content: space-between;
+    &_block {
+      background: #1A1B1C;
+      width: 152px;
+      height: 57px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #FFFFFF;
+      text-align: center;
+      padding-top: 27px;
+      a {
+        color: $hover-color;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &__subtitle {
+    padding-top: 382px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 117px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.headerPortfolio{
+  background: url("../../img/bg_portfolio.png");
+  height: 526px;
+  &__link {
+    display: flex;
+    padding: 0 60px;
+    justify-content: space-between;
+
+    &_block {
+      background: #1A1B1C;
+      width: 152px;
+      height: 57px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #FFFFFF;
+      text-align: center;
+      padding-top: 27px;
+      a {
+        color: $hover-color;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+

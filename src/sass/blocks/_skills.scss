@@ -1,0 +1,28 @@
+.skills {
+  background-color: $main-color;
+  padding: 350px 0 190px 0;
+
+  &__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  &__wrapper {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__item {
+    background: #272727;
+    width: 194px;
+    height: 194px;
+    border: 1px solid #8B8B8B;
+    img {
+      margin: 0 auto;
+      padding: 50px;
+    }
+  }
+}

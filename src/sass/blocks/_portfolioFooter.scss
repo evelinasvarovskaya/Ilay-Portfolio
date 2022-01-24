@@ -1,0 +1,11 @@
+.footerPortfolio {
+  background-color: $main-color;
+  &__text {
+    padding: 91px 0 34px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A0A0A0;
+    text-align: center;
+  }
+}
